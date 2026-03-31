@@ -38,7 +38,7 @@ const fetchData = useCallback(async () => {
         setState({ data: null, loading: false, error: message });
 
     }
-}, [url]);
+}, [url, options]);
 
 useEffect(() => {
     fetchData();
