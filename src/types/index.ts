@@ -38,7 +38,7 @@ export interface TaskState{
     filters: TaskFilter;
 }
 
-export type TaskAction = | { type: "ADD_TASK"; payload: Task }
+export type TaskAction = { type: "ADD_TASK"; payload: Task }
     | { type: "UPDATE_TASK"; payload: Task }
     | { type: "DELETE_TASK"; payload: string }
     | { type: "SET_FILTER"; payload: Partial<TaskFilter> }

@@ -20,7 +20,7 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
         try {
             window.localStorage.setItem(key, JSON.stringify(storedValue));
         } catch {
-            console.warn('faild save data in localStorage');
+            console.warn('failed to save data in localStorage');
         }
     },[key, storedValue]);
 

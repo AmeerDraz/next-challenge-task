@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckSquare, LayoutDashboard, Settings } from "lucide";
+import { CheckSquare, LayoutDashboard, Settings } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -40,11 +40,11 @@ const Sidebar = () => {
                                     className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${
                                         isActive
                                             ? "bg-blue-600 text-white"
-                                            : "text-gray-300 hover:bg-gray-800 hover:text-whitr"
+                                            : "text-gray-300 hover:bg-gray-800 hover:text-white"
                                     }`}
                                 >
                                     <Icon size={18} />
-                                    <span className="text-sm font-mediun">
+                                    <span className="text-sm font-medium">
                                         {item.label}
                                     </span>
                                 </Link>
