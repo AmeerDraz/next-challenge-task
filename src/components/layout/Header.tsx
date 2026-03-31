@@ -17,7 +17,7 @@ export const Header = () => {
                         Dashboard
                     </h2>
                     <p className="text-sm text-gray-500">
-                        manage your tasks effectively
+                        Manage your tasks effectively
                     </p>
                 </div>
                 <div className="flex items-center gap-6">
